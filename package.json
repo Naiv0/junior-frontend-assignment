@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "eslint": "^9.4.0",
+    "node": "^20.14.0"
+  },
+  "name": "junior-frontend-assignment",
+  "description": "Нужно сверстать форму.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naiv0/junior-frontend-assignment.git"
+  },
+  "author": "Naivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naiv0/junior-frontend-assignment/issues"
+  },
+  "homepage": "https://github.com/Naiv0/junior-frontend-assignment#readme"
+}
