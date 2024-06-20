@@ -4,32 +4,24 @@
         <link rel="stylesheet" href="main.css">
     </head>
 <body>
-    <div class='prikol'>
-        <div class="subtitle">Регистрация пользователя</div>
-            <div class="form-container">
-                <p>Имя</p>
-                <input type="text" class="form-controller" id="inputName" placeholder="Введите ваше имя" name="name" required>
-            </div>
-            <div class="form-container">
-                <p>Фамилия</p>
-                <input type="text" class="form-controller" id="inputSurename" placeholder="Введите вашу Фамилию" name="inputSurename" required>
-            </div>
-            <div class="form-container">
-                <p>Почта</p>
-                <input type="text" class="form-controller" id="inputEmail" placeholder="Ваша почта" name="email" required>
-            </div>
-            <div class="form-container">
-                <p>Номер телефона</p>
-                <input type="text" class="form-controller" id="inputPhonenum" placeholder="Ваш номер телефона" name="phone" required>
-            </div>
-            <div class="form-container">
-                <p>Сопроводительное письмо</p>
-                <input type="text" class="form-controller" id="letter" placeholder="Сопроводительное письмо (опционально)" name="letter">
-            </div>
-            <div>
-                <input type="button" class="submitButton" value="Submit">
-            </div>
-    </div>
-
+    <form id="myForm">
+        <label for="firstName">Имя:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Фамилия:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label for="email">Почта:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="message">Поле ввода текста:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Отправить">
+    </form>
+    <script src="index.js"></script>
 </body>
 </html>

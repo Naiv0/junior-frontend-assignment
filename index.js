@@ -1,1 +1,3 @@
-import start from 'bin/start.js'
+import start from 'src/validate.js'
+
+start();
