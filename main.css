@@ -1,0 +1,25 @@
+.subtitle {
+    display: flex;
+    flex: content;
+    text-align: center;
+    size: 1em;
+}
+p {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    font-size: 1.5em;
+    justify-content: center;
+}
+input {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.prikol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
